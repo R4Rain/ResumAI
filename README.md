@@ -11,3 +11,6 @@ ResumAI is a website that able to recommend a job based on candidate skills or e
 - Build react or install react
 - Config Firebase in firebase.js
 - Install all python packages in requirement.txt
+
+## Reference
+- https://deepnote.com/@abid/spaCy-Resume-Analysis-gboeS3-oRf6segt789p4Jg
