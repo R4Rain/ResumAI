@@ -10,7 +10,6 @@ import os
 
 from nltk.corpus import stopwords
 import spacy
-from spacy.matcher import Matcher
 
 stop = stopwords.words('english')
 
