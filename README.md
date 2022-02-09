@@ -19,7 +19,7 @@ ResumAI is a website that able to recommend a job based on candidate skills or e
 - Recommend and display the jobs based on the KNN result.
 
 ## Run Project
-- Install react
+- Install and run react
 ```
 npm install
 npm start
