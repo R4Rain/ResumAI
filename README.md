@@ -8,11 +8,11 @@ ResumAI is a website that able to recommend a job based on candidate skills or e
 
 ## How our A.I works
 - Extract Skills or experiences on their resume by using spacy NLP NER (Named Entity Recognition).
-- Convert bunch of skills to TFIDF matrix.
+- Convert bunch of skills to TF-IDF vector.
 - Use KNN algorithm to do similarity matching with the provided datasets.
-- Recommend or display a job based on the KNN score.
+- Recommend and display the jobs based on the KNN result.
 
 ## Run Project
-- Build react or install react
+- Install react
 - Config Firebase in firebase.js
 - Install all python packages in requirement.txt
