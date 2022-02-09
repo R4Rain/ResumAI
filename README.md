@@ -1,3 +1,9 @@
+## Group members:
+James Martin			2440022050
+Dave Aurellio			2440010012
+Javier Islamey		2440016672
+Lucky Laurens		2440028104
+
 ## Brief Description
 ResumAI is a website that able to recommend a job based on candidate skills or experiences that contain in their resume.
 
@@ -14,5 +20,17 @@ ResumAI is a website that able to recommend a job based on candidate skills or e
 
 ## Run Project
 - Install react
-- Config Firebase in firebase.js
+```
+$ npm install
+$ npm start
+```
 - Install all python packages in requirement.txt
+```
+cd server
+pip install -r requirements.txt
+```
+- Run server on run.py
+```
+cd server
+python run.py
+```
