@@ -12,7 +12,6 @@ import DashboardHome from './pages/DashboardHome';
 import MyResume from './pages/MyResume';
 import UploadResume from './pages/UploadResume';
 import Result from './pages/Result'
-import Test from './pages/Test';
 
 const App = () =>{
   return(
@@ -44,9 +43,6 @@ const App = () =>{
                 <PrivateRoute>   
                   <Result/>
                 </PrivateRoute>
-              }/>
-              <Route path="/test" element={
-                <Test/>
               }/>
             </Switch>
           </StorageProvider>

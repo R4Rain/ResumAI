@@ -4,12 +4,12 @@ import 'firebase/compat/auth'
 
 firebase.setLogLevel('silent')
 const app = firebase.initializeApp({
-  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
-  projectId: process.env.REACT_APP_FIREBASE_API_KEY,
-  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.REACT_APP_FIREBASE_APP_ID
+  apiKey: 'AIzaSyAOjMhgEwU-YmTVmxSrrUSBxgzBEzYRwQc',
+  authDomain: 'resumai-auth-development.firebaseapp.com',
+  projectId: 'resumai-auth-development',
+  storageBucket: 'resumai-auth-development.appspot.com',
+  messagingSenderId: '73938285969',
+  appId: '1:73938285969:web:4083ab5acddd0b82f41630'
 })
 
 export const auth = app.auth()
