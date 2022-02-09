@@ -39,16 +39,21 @@ const ForgotPassword = () =>{
         await resetPassword(emailRef.current.value)
     }
     const clean_message = (txt) => {
-        let temp = txt.split("/")[1]
-        temp = temp.split("-")
-        temp = temp.join(" ")
-        temp = temp[0].toUpperCase() + temp.substring(1).toLowerCase()
-        return temp
+        try{
+            let temp = txt.split("/")[1]
+            temp = temp.split("-")
+            temp = temp.join(" ")
+            temp = temp[0].toUpperCase() + temp.substring(1).toLowerCase()
+            return temp
+        }catch{
+            return
+        }
     }
     useEffect(() => {
         if(errorMessage){
             if(errorMessage === 'Confirmed!'){
                 setReminder(true)
+                setErrorMessage('')
             }
             else{
                 setError(clean_message(errorMessage))
