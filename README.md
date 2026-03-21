@@ -1,9 +1,3 @@
-## Group members
-James Martin 2440022050\
-Dave Aurellio 2440010012\
-Javier Islamey 2440016672\
-Lucky Laurens 2440028104
-
 ## Brief Description
 ResumAI is a website that able to recommend a job based on candidate skills or experiences that contain in their resume.
 
